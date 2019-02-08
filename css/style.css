@@ -1,0 +1,246 @@
+/* 全局样式 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft YaHei UI;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+
+/* 顶部样式 */
+header{
+    width: 100%;
+    height: 65px;
+    background: #2e2e2e;
+}
+header .container{
+    width: 85%;
+    margin: 0 auto;
+}
+header .container img{
+    margin-top: 15px;
+    cursor: pointer;
+}
+header .container nav{
+    display: block;
+    float: right;
+    height: 65px;
+}
+header .container nav a{
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+}
+header .container nav a:hover{
+    color: #2e2e2e;
+    background: #f46208;
+    padding-bottom: 3px;
+}
+/* banner样式 */
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 480px;
+    z-index: 1;
+}
+.banner p{
+    z-index: 2;
+    position: absolute;
+}
+.banner p:first-of-type{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    font-size: 60px;
+    color: #fff;
+}
+.banner p:last-of-type{
+    position: absolute;
+    left: 38%;
+    top: 55%;
+    font-size: 18px;
+    color: #fff;
+}
+/* portfolio样式 */
+.portfolio .up{
+    width: 100%;
+    height: 275px;
+}
+.portfolio .up .txt{
+    text-align: center;
+}
+.portfolio .up h1{
+    font-size: 30px;
+    font-weight: normal;
+    color: #f46208;
+    letter-spacing: 5px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+.portfolio .up p{
+    margin-bottom: 80px;
+}
+.portfolio .up nav a{
+    color: #f46208;
+    padding: 8px;
+    border: 1px solid #f46208;
+    margin-left: 5px;
+}
+.portfolio .up nav a:hover{
+    background: #f46208;
+    opacity: 0.7;
+    color: #fff;
+}
+.portfolio .down{
+    width: 100%;
+    height: 375px;
+    overflow: hidden;
+}
+.portfolio .down img{
+    width: 100%;
+    height: 100%;
+}
+/* stats样式 */
+.stats{
+    width: 100%;
+    height: 385px;
+    text-align: center;
+    overflow: hidden;
+}
+.stats > h1{
+    font-size: 30px;
+    font-weight: normal;
+    color: #f46208;
+    letter-spacing: 5px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+.stats > p{
+    margin-bottom: 50px;
+}
+.stats nav {
+    width: 771px;
+    height: 95px;
+    margin: 0 auto;
+}
+.stats nav .icon{
+    float: left;
+    text-align: center;
+    margin: 0 60px;
+}
+.stats nav .icon p{
+    font-weight: bold;
+}
+.stats nav .icon h1{
+    font-weight: normal;
+    color: #f46208;
+    letter-spacing: 5px;
+}
+/* team样式 */
+.team{
+    width: 100%;
+    height: 440px;
+    overflow: hidden;
+    background: #2e2e2e;
+}
+.team > h1{
+    text-align: center;
+    font-weight: normal;
+    color: #f46208;
+    letter-spacing: 5px;
+    padding-top: 70px;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+.team > p{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 45px;
+}
+.team .introduce-container{
+    width: 814px;
+    height: 193px;
+    /* position: relative; */
+    /* left: 270px; */
+    margin: 0 auto;
+}
+.team .introduce-container .introduce{
+    float: left;
+}
+.team .introduce-container .introduce p{
+    text-align: center;
+    color: #fff;
+}
+.team .introduce-container .introduce img{
+    position: relative;
+    text-align: center;
+    width: 135px;
+    height: 135px;
+    left: 70px;
+}
+/* contact-us样式 */
+.contact-us{
+    width: 100%;
+    height: 560px;
+    overflow: hidden;
+}
+.contact-us h1{
+    text-align: center;
+    font-weight: normal;
+    color: #f46208;
+    letter-spacing: 5px;
+    padding-top: 70px;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+.contact-us > p{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.contact-us form{
+    width: 630px;
+    margin: 0 auto;
+    position: relative;
+}
+.contact-us form .name,
+.contact-us form .email{
+    width: 300px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+.contact-us form .email{
+    margin-left: 15px;
+}
+.contact-us form .message{
+    width: 622px;
+    height: 185px;
+    margin-bottom: 15px;
+}
+.contact-us form .submit{
+    width: 135px;
+    height: 40px;
+    background: #f46208;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    left: 247.5px;
+}
+/* footer样式 */
+footer{
+    width: 100%;
+    height: 75px;
+    background: #2e2e2e;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    line-height: 75px;
+}
