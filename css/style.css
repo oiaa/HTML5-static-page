@@ -5,6 +5,9 @@
     font-family: Microsoft YaHei UI;
     font-size: 14px;
 }
+body {
+    min-width: 1200px;
+}
 a{
     text-decoration: none;
 }
